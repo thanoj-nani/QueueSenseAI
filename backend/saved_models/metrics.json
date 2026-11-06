@@ -1,0 +1,37 @@
+{
+  "model_name": "Random Forest Regressor",
+  "mae": 1.654,
+  "mse": 4.955,
+  "rmse": 2.226,
+  "r2": 0.9905,
+  "sample_size": 12000,
+  "train_samples": 9600,
+  "test_samples": 2400,
+  "features_used": [
+    "service_category",
+    "priority_level",
+    "arrival_hour",
+    "day_of_week",
+    "people_waiting",
+    "active_counters",
+    "average_service_time",
+    "counter_workload",
+    "arrival_rate",
+    "historical_average_wait"
+  ],
+  "trained_at": "2026-11-05T09:42:17.110309",
+  "comparison": {
+    "Linear Regression": {
+      "mae": 5.63,
+      "mse": 101.953,
+      "rmse": 10.097,
+      "r2": 0.8037
+    },
+    "Random Forest Regressor": {
+      "mae": 1.654,
+      "mse": 4.955,
+      "rmse": 2.226,
+      "r2": 0.9905
+    }
+  }
+}
